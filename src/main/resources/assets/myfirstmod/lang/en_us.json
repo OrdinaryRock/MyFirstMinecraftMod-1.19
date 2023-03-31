@@ -1,4 +1,6 @@
 {
   "item.myfirstmod.xen_crystal_shard": "Xen Crystal Shard",
-  "item.myfirstmod.xen_crystal": "Xen Crystal"
+  "item.myfirstmod.xen_crystal": "Xen Crystal",
+
+  "itemGroup.myfirstmod_tab": "My First Mod"
 }
