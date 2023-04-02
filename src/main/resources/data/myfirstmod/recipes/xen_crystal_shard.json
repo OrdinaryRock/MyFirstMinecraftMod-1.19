@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "myfirstmod:xen_crystal"
+    }
+  ],
+  "result": {
+    "item": "myfirstmod:xen_crystal_shard",
+    "count": 4
+  }
+}
