@@ -1,10 +1,12 @@
 {
   "item.myfirstmod.xen_crystal_shard": "Xen Crystal Shard",
   "item.myfirstmod.xen_crystal": "Xen Crystal",
+  "item.myfirstmod.gluon_particle": "Gluon Particle",
 
   "block.myfirstmod.gluon_crystal_block": "Gluon Crystal Block",
   "block.myfirstmod.gluon_ore": "Gluon Ore",
   "block.myfirstmod.deepslate_gluon_ore": "Deepslate Gluon Ore",
+  "block.myfirstmod.jumpy_block": "Jumpy Block",
 
   "itemGroup.myfirstmod_tab": "My First Mod"
 }

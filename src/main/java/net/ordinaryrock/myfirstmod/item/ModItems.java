@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.ordinaryrock.myfirstmod.MyFirstMod;
+import net.ordinaryrock.myfirstmod.item.custom.GluonParticleItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MyFirstMod.MOD_ID);
@@ -14,6 +15,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MYFIRSTMOD_TAB)));
     public static final RegistryObject<Item> XEN_CRYSTAL = ITEMS.register("xen_crystal",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MYFIRSTMOD_TAB)));
+    public static final RegistryObject<Item> GLUON_PARTICLE = ITEMS.register("gluon_particle",
+            () -> new GluonParticleItem(new Item.Properties().tab(ModCreativeModeTab.MYFIRSTMOD_TAB)));
 
 
     public static void register(IEventBus eventBus){

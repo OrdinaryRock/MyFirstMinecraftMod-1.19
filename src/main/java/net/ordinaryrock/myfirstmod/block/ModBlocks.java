@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.ordinaryrock.myfirstmod.MyFirstMod;
+import net.ordinaryrock.myfirstmod.block.custom.JumpyBlock;
 import net.ordinaryrock.myfirstmod.item.ModCreativeModeTab;
 import net.ordinaryrock.myfirstmod.item.ModItems;
 
@@ -43,6 +44,14 @@ public class ModBlocks {
                                         .strength(6f)
                                         .requiresCorrectToolForDrops(),
                                         UniformInt.of(3, 7)
+                                        ),
+                                ModCreativeModeTab.MYFIRSTMOD_TAB);
+    public static final RegistryObject<Block> JUMPY_BLOCK =
+            registerBlock("jumpy_block",
+                                () -> new JumpyBlock(BlockBehaviour.Properties
+                                        .of(Material.STONE)
+                                        .strength(6f)
+                                        .requiresCorrectToolForDrops()
                                         ),
                                 ModCreativeModeTab.MYFIRSTMOD_TAB);
 
